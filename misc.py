@@ -9,6 +9,6 @@ import json
 TOKEN=('')
 
 memory_storage = MemoryStorage()
-bot = Bot(token=TOKEN, parse_mode='html', disable_web_page_preview=False)
+bot = Bot(token=TOKEN)
 dp = Dispatcher(bot,storage=memory_storage)
 logging.basicConfig(level=logging.INFO)
