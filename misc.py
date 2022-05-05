@@ -8,6 +8,6 @@ import json
 TOKEN = 'BOT TOKEN HERE'
 
 # Initialize bot and dispatcher
-bot = Bot(TOKEN, parse_mode=types.ParseMode.HTML)
+bot = Bot(TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher(bot,storage=memory_storage)
 logging.basicConfig(level=logging.INFO)
