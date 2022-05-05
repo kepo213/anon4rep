@@ -5,7 +5,8 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.dispatcher import FSMContext
 import json
 
-TOKEN=""
+
+TOKEN=('')
 
 memory_storage = MemoryStorage()
 bot = Bot(token=TOKEN, parse_mode='html', disable_web_page_preview=True)
