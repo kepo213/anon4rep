@@ -3,4 +3,3 @@ services:
   worker:
     build: .
     environment:
-      Bot_Token: $Bot_Token
