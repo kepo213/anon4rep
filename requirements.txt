@@ -1,4 +1,4 @@
-aiogram
+aiogram==2.12.1
 aiohttp      
 async-lru==1.0.2
 async-timeout==3.0.1
