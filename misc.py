@@ -10,4 +10,5 @@ API_TOKEN = "5317907528:AAF-S4YcbUNo_XcX6caSDI6GiXnsQcKCY3c"
 
 
 bot = Bot(token=API_TOKEN)
+dp = Dispatcher(bot)
 logging.basicConfig(level=logging.INFO)
