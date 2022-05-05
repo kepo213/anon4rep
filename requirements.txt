@@ -4,3 +4,4 @@ setuptools
 typing-extensions
 yarl
 PyMySQL
+pysqlite3
