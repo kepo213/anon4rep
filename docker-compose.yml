@@ -3,3 +3,4 @@ services:
   yukki:
     build: .
     environment:
+      Bot_Token: $Bot_Token
