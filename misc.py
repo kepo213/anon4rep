@@ -6,7 +6,8 @@ from aiogram.dispatcher import FSMContext
 import json
 
 
-API_TOKEN = "BOT_TOKEN_HERE"
+API_TOKEN = "5317907528:AAF-S4YcbUNo_XcX6caSDI6GiXnsQcKCY3c"
+
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot,storage=memory_storage)
