@@ -1,5 +1,5 @@
 import logging
-from aiogram import Bot,TOKEN, Dispatcher
+from aiogram import bot,TOKEN,Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.dispatcher import FSMContext
