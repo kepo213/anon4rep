@@ -1,6 +1,6 @@
 aiogram
 aiohttp      
-setuptools==49.2.1
-typing-extensions==3.7.4.3
-yarl==1.6.3
-PyMySQL==1.0.2
+setuptools
+typing-extensions
+yarl
+PyMySQL
