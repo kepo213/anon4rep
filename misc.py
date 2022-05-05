@@ -1,4 +1,5 @@
 import logging
+from aiogram import types
 from aiogram import Bot,Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
@@ -8,6 +9,6 @@ import json
 TOKEN = 'BOT TOKEN HERE'
 
 # Initialize bot and dispatcher
-bot = Bot(TOKEN, parse_mode=ParseMode.HTML)
+bot = Bot(TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot,storage=memory_storage)
 logging.basicConfig(level=logging.INFO)
