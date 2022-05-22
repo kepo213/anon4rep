@@ -45,7 +45,7 @@ async def all_other_messages(message: types.message):
                 if an_id == '1':
                     await bot.send_message(text = 'У вас нет активного чата.\nНажмите /next чтобы найти нового',chat_id=message.chat.id,reply_markup = types.ReplyKeyboardRemove())
                 else:
-                    if (('t.me' in message.text) or ('https' in message.text) or ('http' in message.text) or ('@' in message.text)):
+                    if ('t.me' in message.text) or ('https' in message.text) or ('http' in message.text) or ('@' in message.text)):
                         await bot.send_message(chat_id=message.chat.id,text= f'Ваше сообщение: <code>{message.text}</code>\n'
                                                                              f'<b>Не было отправлено. Не используй в боте сcылки и <code>символ "@"</code></b>',parse_mode='html')
                     else:
