@@ -5,7 +5,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.dispatcher import FSMContext
 import json
 
-API_TOKEN = "5317907528:AAF-S4YcbUNo_XcX6caSDI6GiXnsQcKCY3c"
+API_TOKEN = "5300370152:AAF5dh-Vwz2jvgrUze1lVLUoSjY7fnUr9IY"
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
